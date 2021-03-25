@@ -5,7 +5,7 @@ from utlis import *
 import sudukoSolver
 
 ########################################################################
-pathImage = "Resources/1.jpg"
+pathImage = "Resources/sudoku.jpg"
 heightImg = 450
 widthImg = 450
 model = intializePredectionModel()  # LOAD THE CNN MODEL
