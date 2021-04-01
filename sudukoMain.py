@@ -78,7 +78,7 @@ if biggest.size != 0:
 
     imageArray = ([img,imgThreshold,imgContours, imgBigContour],
                   [imgDetectedDigits, imgSolvedDigits,imgInvWarpColored,inv_perspective])
-    stackedImage = stackImages(imageArray, 1)
+    stackedImage = stackImages(imageArray, 0.5)
     cv2.imshow('Stacked Images', stackedImage)
 
 else:
